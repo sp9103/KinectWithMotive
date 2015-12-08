@@ -1,0 +1,113 @@
+%YAML:1.0
+reproj_err_avg: 1.6553814645870588e-001
+rgb_intrinsics: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 3.4492612128850061e+002, 0., 3.1927082410195425e+002, 0.,
+       3.4494640343849875e+002, 1.7935125188446651e+002, 0., 0., 1. ]
+rgb_distortion: !!opencv-matrix
+   rows: 1
+   cols: 5
+   dt: d
+   data: [ 3.9632346052181702e-002, 2.4639957770356324e-002,
+       -3.6394984938759854e-003, 3.0399484117519745e-004,
+       -8.1335078023114446e-002 ]
+depth_intrinsics: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 2.7594089703080050e+002, 0., 2.5541665928156340e+002, 0.,
+       4.0581929816293973e+002, 2.1100147280525471e+002, 0., 0., 1. ]
+depth_distortion: !!opencv-matrix
+   rows: 1
+   cols: 5
+   dt: d
+   data: [ 3.9632346052181702e-002, 2.4639957770356324e-002,
+       -3.6394984938759854e-003, 3.0399484117519745e-004,
+       -8.1335078023114446e-002 ]
+infrared_intrinsics: !!opencv-matrix
+   rows: 0
+   cols: 0
+   dt: u
+   data: []
+infrared_distortion: !!opencv-matrix
+   rows: 0
+   cols: 0
+   dt: u
+   data: []
+R: !!opencv-matrix
+   rows: 0
+   cols: 0
+   dt: u
+   data: []
+T: !!opencv-matrix
+   rows: 0
+   cols: 0
+   dt: u
+   data: []
+R_extrinsics: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 1.5068447356462414e-001, -9.0264930488074074e-002,
+       9.8445235118340557e-001, 1.2714377823139342e-001,
+       9.8932191971287553e-001, 7.1250254965695300e-002,
+       -9.8037168925035689e-001, 1.1443068425738569e-001,
+       1.6055207696192583e-001 ]
+T_extrinsics: !!opencv-matrix
+   rows: 3
+   cols: 1
+   dt: d
+   data: [ 2.1854494853095697e+004, 1.5609124251312726e+003,
+       -2.5055175328591104e+004 ]
+rgb_size: !!opencv-matrix
+   rows: 0
+   cols: 0
+   dt: u
+   data: []
+raw_rgb_size: !!opencv-matrix
+   rows: 0
+   cols: 0
+   dt: u
+   data: []
+depth_size: !!opencv-matrix
+   rows: 0
+   cols: 0
+   dt: u
+   data: []
+raw_depth_size: !!opencv-matrix
+   rows: 0
+   cols: 0
+   dt: u
+   data: []
+raw_depth_unit_in_meters: !!opencv-matrix
+   rows: 0
+   cols: 0
+   dt: u
+   data: []
+min_max_depth_in_meters: !!opencv-matrix
+   rows: 0
+   cols: 0
+   dt: u
+   data: []
+infrared_size: !!opencv-matrix
+   rows: 0
+   cols: 0
+   dt: u
+   data: []
+depth_base_and_offset: !!opencv-matrix
+   rows: 0
+   cols: 0
+   dt: u
+   data: []
+depth_multiplicative_correction_factor: !!opencv-matrix
+   rows: 0
+   cols: 0
+   dt: u
+   data: []
+depth_additive_correction_factor: !!opencv-matrix
+   rows: 0
+   cols: 0
+   dt: u
+   data: []

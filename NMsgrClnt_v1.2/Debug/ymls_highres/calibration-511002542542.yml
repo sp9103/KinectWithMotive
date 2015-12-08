@@ -1,0 +1,108 @@
+%YAML:1.0
+reproj_err_avg: 1.8361861392049633e-001
+rgb_intrinsics: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 3.3841348668346427e+002, 0., 3.1652428571332621e+002, 0.,
+       3.4418381411419745e+002, 1.8177948564136332e+002, 0., 0., 1. ]
+rgb_distortion: !!opencv-matrix
+   rows: 1
+   cols: 5
+   dt: d
+   data: [ 3.1209052888103078e-002, 4.6315056181652138e-002,
+       -3.0989528090426487e-003, -4.9513531314612910e-004,
+       -1.0719503604843859e-001 ]
+depth_intrinsics: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 2.7073078934677142e+002, 0., 2.5321942857066097e+002, 0.,
+       4.0492213425199702e+002, 2.1385821840160392e+002, 0., 0., 1. ]
+depth_distortion: !!opencv-matrix
+   rows: 1
+   cols: 5
+   dt: d
+   data: [ 3.1209052888103078e-002, 4.6315056181652138e-002,
+       -3.0989528090426487e-003, -4.9513531314612910e-004,
+       -1.0719503604843859e-001 ]
+infrared_intrinsics: !!opencv-matrix
+   rows: 0
+   cols: 0
+   dt: u
+   data: []
+infrared_distortion: !!opencv-matrix
+   rows: 0
+   cols: 0
+   dt: u
+   data: []
+R: !!opencv-matrix
+   rows: 0
+   cols: 0
+   dt: u
+   data: []
+T: !!opencv-matrix
+   rows: 0
+   cols: 0
+   dt: u
+   data: []
+R_extrinsics: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+T_extrinsics: !!opencv-matrix
+   rows: 3
+   cols: 1
+   dt: d
+   data: [ 0., 0., 0. ]
+rgb_size: !!opencv-matrix
+   rows: 0
+   cols: 0
+   dt: u
+   data: []
+raw_rgb_size: !!opencv-matrix
+   rows: 0
+   cols: 0
+   dt: u
+   data: []
+depth_size: !!opencv-matrix
+   rows: 0
+   cols: 0
+   dt: u
+   data: []
+raw_depth_size: !!opencv-matrix
+   rows: 0
+   cols: 0
+   dt: u
+   data: []
+raw_depth_unit_in_meters: !!opencv-matrix
+   rows: 0
+   cols: 0
+   dt: u
+   data: []
+min_max_depth_in_meters: !!opencv-matrix
+   rows: 0
+   cols: 0
+   dt: u
+   data: []
+infrared_size: !!opencv-matrix
+   rows: 0
+   cols: 0
+   dt: u
+   data: []
+depth_base_and_offset: !!opencv-matrix
+   rows: 0
+   cols: 0
+   dt: u
+   data: []
+depth_multiplicative_correction_factor: !!opencv-matrix
+   rows: 0
+   cols: 0
+   dt: u
+   data: []
+depth_additive_correction_factor: !!opencv-matrix
+   rows: 0
+   cols: 0
+   dt: u
+   data: []
